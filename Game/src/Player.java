@@ -3,6 +3,8 @@ public class Player {
     int Ycoordinaate; // castimine ehk teisendamine ühest tüübist teise
     char symbol;
     Direction direction; // 3nda tunni teema
+    //Ese: xCoordinaate, yCoordinaate, tugevusest, kasutuskordadest, nimest
+    Item item; //klassikomplekt Player klassi sees on Item klass
 
     //constructor
     public Player(int worldWidth, int worldHeight){
