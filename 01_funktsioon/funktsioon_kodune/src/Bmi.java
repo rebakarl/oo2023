@@ -5,9 +5,9 @@ public class Bmi {
     double BMI;
 
     public Bmi(double kehakaal, double pikkus, double pikkus_m){
-       this.kehakaal=82;
-       this.pikkus=182;
-       this.pikkus_m=1.82;
+       this.kehakaal=kehakaal;
+       this.pikkus=pikkus;
+       this.pikkus_m=pikkus/100;
        this.BMI=getBmi(kehakaal, pikkus_m);
     }
     public double getBmi(double kehakaal, double pikkus_m) {
