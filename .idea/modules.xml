@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/04_proovikontrolltoo1/FailistLugemine/FailistLugemine.iml" filepath="$PROJECT_DIR$/04_proovikontrolltoo1/FailistLugemine/FailistLugemine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Game/Game.iml" filepath="$PROJECT_DIR$/Game/Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_proovikontrolltoo1/Hulknurk/Hulknurk.iml" filepath="$PROJECT_DIR$/04_proovikontrolltoo1/Hulknurk/Hulknurk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_klassikomplekt/Kodune_klassikomplekt_tund3/Kodune_klassikomplekt_tund3.iml" filepath="$PROJECT_DIR$/03_klassikomplekt/Kodune_klassikomplekt_tund3/Kodune_klassikomplekt_tund3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_proovikontrolltoo1/Libisev keskmine/Libisev keskmine.iml" filepath="$PROJECT_DIR$/04_proovikontrolltoo1/Libisev keskmine/Libisev keskmine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_proovikontrolltoo1/faili kirjutamine/faili kirjutamine.iml" filepath="$PROJECT_DIR$/04_proovikontrolltoo1/faili kirjutamine/faili kirjutamine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_funktsioon/funktsioon_kodune/funktsioon_kodune.iml" filepath="$PROJECT_DIR$/01_funktsioon/funktsioon_kodune/funktsioon_kodune.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_klassikomplekt/klassikomplekt_kodune/klassikomplekt_kodune.iml" filepath="$PROJECT_DIR$/03_klassikomplekt/klassikomplekt_kodune/klassikomplekt_kodune.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_funktsioon/kodune yl/kodune yl.iml" filepath="$PROJECT_DIR$/01_funktsioon/kodune yl/kodune yl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kodune1/kodune1.iml" filepath="$PROJECT_DIR$/kodune1/kodune1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_funktsioon/kodyne yl/kodyne yl.iml" filepath="$PROJECT_DIR$/01_funktsioon/kodyne yl/kodyne yl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/oo2023.iml" filepath="$PROJECT_DIR$/.idea/oo2023.iml" />
+    </modules>
+  </component>
+</project>
