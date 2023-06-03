@@ -1,4 +1,4 @@
-public class Item {
+public class Item implements WorldObject {
     int xCoordinaate;
     int yCoordinaate;
     int strength;
@@ -6,7 +6,7 @@ public class Item {
     String name;
 
 
-    // parem klõps -> generate -> constructor -> ctrl valin kõik
+
     public Item( int strength, int durability, String name,int worldWidth, int worldHeight) {
         this.xCoordinaate = getRandomCoordinaate(worldWidth);
         this.yCoordinaate = getRandomCoordinaate(worldHeight);
@@ -15,7 +15,7 @@ public class Item {
         this.name = name;
     }
 
-    private static int getRandomCoordinaate(int worldDimension) {
+    public int getRandomCoordinaate(int worldDimension) {
         return (int) (Math.random() * (worldDimension - 2) + 1);
     }
 }

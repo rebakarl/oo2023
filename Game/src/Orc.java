@@ -1,15 +1,8 @@
-public class Orc {
-
-    int Xcoordinaate; //täisarvuline muutuja
-    int Ycoordinaate; // castimine ehk teisendamine ühest tüübist teise
-    char symbol;
+// ALAMKLASS
+public class Orc extends Character{
 
     public Orc(int worldWidth, int worldHeight) {
-        this.Xcoordinaate = getRandomCoordinaate(worldWidth);
-        this.Ycoordinaate = getRandomCoordinaate(worldHeight);
-        this.symbol = 'O';
-    }
-    private static int getRandomCoordinaate(int worldDimension) {
-        return (int) (Math.random() * (worldDimension - 2) + 1);
+        //super on parenti constructor
+        super(worldWidth, worldHeight, 'O');
     }
 }

@@ -1,15 +1,8 @@
-public class Dragon {
+// Alamklass
+    public class Dragon extends Character{
 
-    int Xcoordinaate; //täisarvuline muutuja
-    int Ycoordinaate; // castimine ehk teisendamine ühest tüübist teise
-    char symbol;
-
-    public Dragon(int worldWidth, int worldHeight){
-        this.Xcoordinaate = getRandomCoordinaate(worldWidth);
-        this.Ycoordinaate = getRandomCoordinaate(worldHeight);
-        this.symbol='D';
+        public Dragon(int worldWidth, int worldHeight) {
+            //super on parenti constructor
+            super(worldWidth, worldHeight, 'D');
+        }
     }
-    private static int getRandomCoordinaate(int worldDimension) {
-        return (int) (Math.random() * (worldDimension - 2) + 1);
-    }
-}
